@@ -6,24 +6,38 @@
     <description>Example Site Description</description>
     
     <item>
-        <title>About</title>
-        <link>/about.html</link>
-        <pubDate>Wed, 02 Dec 2015 12:01:02 EST</pubDate>
-        <description>[TOC]  Shawn Graham Associate Prof of Digital Humanities [@electricarchaeo](http://twitter.com/electricarchaeo) - research blog at [electric archaeology](http://electricarchaeology.ca) - open notebook at [shawngraham.github.io](http://shawngraham.github.io) - office at PA 406 - email at shawn dot graham at carleton dot ca - Office hours by chance or arrangement iframe width="560" height="315" src="https://www.youtube.com/embed/HaSblM-Qz3A" frameborder="0" allowfullscreen/iframe ...</description>
+        <title>Future Proofing your Research</title>
+        <link>/futureproof.html</link>
+        <pubDate>Wed, 02 Dec 2015 13:43:03 EST</pubDate>
+        <description>[TOC]  Future Proofing Your Research  Bricks I wrote my PhD from 1999 - 2002. I had a Toshiba laptop. I backed everything up onto iOmega zip drives. I was cutting edge, baby. One day, the screen on the laptop completely fritzed out. No problem; the laptop had a...</description>
     </item>    
     
     <item>
         <title>Getting Started</title>
         <link>/getting-started.html</link>
-        <pubDate>Wed, 02 Dec 2015 12:00:47 EST</pubDate>
-        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to a few questions, and our objectives for the course are to move...</description>
+        <pubDate>Wed, 02 Dec 2015 13:17:26 EST</pubDate>
+        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to the questions below, so I look forward to puzzling these out with...</description>
+    </item>    
+    
+    <item>
+        <title>Assessment</title>
+        <link>/assessment.html</link>
+        <pubDate>Wed, 02 Dec 2015 13:16:11 EST</pubDate>
+        <description> Assessment 1. Active participation in the class discussion. Leadership and positive contributions to the class discussion, wherever that takes place. The course hashtag is hist5702w. (I am [@electricarchaeo](http://twitter.com/electricarchaeo) on Twitter). 2. Open Notebooks. 10 meeting entries (you are encouraged to make a repository in github just for these). For...</description>
     </item>    
     
     <item>
         <title>Open Access</title>
         <link>/openaccess.html</link>
-        <pubDate>Wed, 02 Dec 2015 11:50:19 EST</pubDate>
-        <description>[TOC]  Open Access Research As historians, we aren't all that accustomed to sharing our research notes. We go to the archives, we take our photographs, we spend *hours* pouring over documents, photographs, diaries, newspapers... why should someone else benefit from *our* work? There are a number of reasons why...</description>
+        <pubDate>Wed, 02 Dec 2015 12:54:20 EST</pubDate>
+        <description>[TOC]  Open Access Research _Open access is not simply about putting data online._ (A deep discussion about the failings of the techno-utopianism of 'the digital' is [Colleen Morgan](https://middlesavagery.wordpress.com/)'s [phd thesis](https://www.academia.edu/2997156/Emancipatory_Digital_Archaeology)). Open access means making our data available in *useful* formats; it means *exposing our thought process*. It implies transparency...</description>
+    </item>    
+    
+    <item>
+        <title>About</title>
+        <link>/about.html</link>
+        <pubDate>Wed, 02 Dec 2015 12:01:02 EST</pubDate>
+        <description>[TOC]  Shawn Graham Associate Prof of Digital Humanities [@electricarchaeo](http://twitter.com/electricarchaeo) - research blog at [electric archaeology](http://electricarchaeology.ca) - open notebook at [shawngraham.github.io](http://shawngraham.github.io) - office at PA 406 - email at shawn dot graham at carleton dot ca - Office hours by chance or arrangement iframe width="560" height="315" src="https://www.youtube.com/embed/HaSblM-Qz3A" frameborder="0" allowfullscreen/iframe ...</description>
     </item>    
     
     <item>
@@ -38,13 +52,6 @@
         <link>/final-project.html</link>
         <pubDate>Wed, 02 Dec 2015 10:23:34 EST</pubDate>
         <description> You Can Build a Video Game  Video games are the new lively medium  Game mechanics for immersive history blah blah blah...</description>
-    </item>    
-    
-    <item>
-        <title>Assessment</title>
-        <link>/assessment.html</link>
-        <pubDate>Wed, 02 Dec 2015 10:23:32 EST</pubDate>
-        <description> Assessment  Blah blah blah  item 1 blah blah blah...</description>
     </item>    
     
 </channel>
