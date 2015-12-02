@@ -6,10 +6,17 @@
     <description>Example Site Description</description>
     
     <item>
+        <title>About</title>
+        <link>/about.html</link>
+        <pubDate>Wed, 02 Dec 2015 12:01:02 EST</pubDate>
+        <description>[TOC]  Shawn Graham Associate Prof of Digital Humanities [@electricarchaeo](http://twitter.com/electricarchaeo) - research blog at [electric archaeology](http://electricarchaeology.ca) - open notebook at [shawngraham.github.io](http://shawngraham.github.io) - office at PA 406 - email at shawn dot graham at carleton dot ca - Office hours by chance or arrangement iframe width="560" height="315" src="https://www.youtube.com/embed/HaSblM-Qz3A" frameborder="0" allowfullscreen/iframe ...</description>
+    </item>    
+    
+    <item>
         <title>Getting Started</title>
         <link>/getting-started.html</link>
-        <pubDate>Wed, 02 Dec 2015 11:58:27 EST</pubDate>
-        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to a few questions, and our objectives for the course are to move us...</description>
+        <pubDate>Wed, 02 Dec 2015 12:00:47 EST</pubDate>
+        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to a few questions, and our objectives for the course are to move...</description>
     </item>    
     
     <item>
@@ -17,13 +24,6 @@
         <link>/openaccess.html</link>
         <pubDate>Wed, 02 Dec 2015 11:50:19 EST</pubDate>
         <description>[TOC]  Open Access Research As historians, we aren't all that accustomed to sharing our research notes. We go to the archives, we take our photographs, we spend *hours* pouring over documents, photographs, diaries, newspapers... why should someone else benefit from *our* work? There are a number of reasons why...</description>
-    </item>    
-    
-    <item>
-        <title>About</title>
-        <link>/about.html</link>
-        <pubDate>Wed, 02 Dec 2015 11:17:48 EST</pubDate>
-        <description>[TOC]  Shawn Graham Associate Prof of Digital Humanities [@electricarchaeo](http://twitter.com/electricarchaeo) - research blog at [electric archaeology](http://electricarchaeology.ca) - open notebook at [shawngraham.github.io](http://shawngraham.github.io) - office at PA 406 - email at shawn dot graham at carleton dot ca - Office hours by chance or arrangement  About this site This site is...</description>
     </item>    
     
     <item>
