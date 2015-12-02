@@ -6,17 +6,17 @@
     <description>Example Site Description</description>
     
     <item>
-        <title>HIST5702W @ Carleton U 2016</title>
-        <link>/index.html</link>
-        <pubDate>Wed, 02 Dec 2015 10:25:42 EST</pubDate>
-        <description>Course Site.</description>
+        <title>About</title>
+        <link>/about.html</link>
+        <pubDate>Wed, 02 Dec 2015 10:31:12 EST</pubDate>
+        <description> Shawn Graham [@electricarchaeo](http://twitter.com/electricarchaeo) - PA 406 - shawn dot graham at carleton dot ca - Office hours by chance or arrangement  About this site This site is powered by [PyKwiki](http://pykwiki.nullism.com/) Icons are from the [Noun Project](https://thenounproject.com/): - 'Designer' by Marie Van den Broeck from the Noun Project -...</description>
     </item>    
     
     <item>
-        <title>About</title>
-        <link>/about.html</link>
-        <pubDate>Wed, 02 Dec 2015 10:23:36 EST</pubDate>
-        <description> Shawn Graham [@electricarchaeo](http://twitter.com/electricarchaeo) + PA 406 + shawn dot graham at carleton dot ca + Office hours by chance or arrangement  About this site This site is powered by [PyKwiki](http://pykwiki.nullism.com/) Icons are from the Noun Project: + 'Designer' by Marie Van den Broeck from the Noun Project +...</description>
+        <title>HIST5702W @ Carleton U 2016</title>
+        <link>/index.html</link>
+        <pubDate>Wed, 02 Dec 2015 10:28:04 EST</pubDate>
+        <description>Course Site.</description>
     </item>    
     
     <item>
