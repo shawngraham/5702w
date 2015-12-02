@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
-    <title>Search | HIST5702W</title>
+<meta name="description" content="Example Site Description">
+<meta name="keywords" content="example, pykwiki">
+
+    <title>Getting Started | HIST5702W</title>
     <link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/codehilite/manni.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -144,205 +146,17 @@
 <div id="wrap">
 <div class="container" style="padding-top: 60px;">
 
-<script>
-var idx = null;
-var post_data = null;
-var shown_ids = [];
-var post_tpl = null;
+<p>
 
-function clear_posts() { 
-    shown_ids = [];
-    $('#posts').html('');
-}    
-
-function no_results() { 
-    $('#posts').html('<p>No results</p>');
-}
-
-function sort_by_frequency(arr) {
-    var frequency = {};
-
-    arr.forEach(function(value) { frequency[value] = 0; });
-    var uniques = arr.filter(function(value) {
-        return ++frequency[value] == 1;
-    });
-    return uniques.sort(function(a, b) {
-        return frequency[b] - frequency[a];
-    });
-}
-
-function get_param(variable) {
-    var query = window.location.search.substring(1);
-    var vars = query.split("&");
-    for (var i=0;i<vars.length;i++) {
-        var pair = vars[i].split("=");
-        if(pair[0] == variable){return decodeURIComponent(pair[1]);}
-    }
-    return false;
-}
-
-function list_post_by_id(id) {
-    id = id.toString();
-    if(shown_ids.indexOf(id) != -1) { 
-        return false;
-    }
-    var file = idx.ids[id]; 
-    if(!file) { 
-        return false;
-    }
-    shown_ids.push(id);
-    var post = post_data.info[file];
-    html = post_tpl({'post':post});
-    $('#posts').append(html);
-}
-
-function list_posts_by_tag(tag) { 
-    clear_posts();
-    for(var i=0; i<idx.tags[tag].length; i++) { 
-        list_post_by_id(idx.tags[tag][i]);
-    }
-    $('#results').html('Results for tag "'+tag+'"');
-}
-
-function list_posts_by_query(search) {
-    clear_posts(); 
-    search = search.toLowerCase();
-    search = search.replace(/\'/,'');
-    search = search.replace(/[^a-z0-9\-]/g, ' ');
-    var parts = search.split(' ');
-    var to_show = [];
-    for(var i=0; i<parts.length; i++) { 
-        var ids = idx.index[parts[i]];
-        if(ids) {
-            for(var y=0; y<ids.length; y++) {
-                to_show.push(ids[y]);
-            }
-        }
-    }
-    to_show = sort_by_frequency(to_show);
-    for(var i=0; i<to_show.length; i++) { 
-        list_post_by_id(to_show[i]);
-    }
-    if(to_show.length < 1) { 
-        no_results();
-    }
-    $('#results').html('Results for query "'+search+'"');
-}
-
-function index_cb(data) { 
-    idx = data;
-    $.get('/posts.json',
-        function(data) { 
-            if(data) {
-                post_data_cb(data);                
-            }
-        }
-    ,"json");
-}
-function post_data_cb(data) { 
-    $('#posts').html('Search index loaded');
-    $('#taglist').show('fast');
-    post_data = data;
-    post_tpl = Mustache.compile($('#search_result_tpl').html());
-    var q = get_param('q');
-    if(q) { 
-        list_posts_by_query(q);
-        return;
-    }
-    var t = get_param('t');
-    if(t) { 
-        list_posts_by_tag(t);
-    }
-}
-
-
-$(document).ready(function() { 
-    // Get the search index file
-    $('#posts').html('Loading search index...');
-    $.get('/idx.json',
-        function(data) { 
-            if(data) {
-                index_cb(data);                
-            }
-        }
-    ,"json");
-});
-</script>
-<div class="col-sm-3">
-
-    <div class="input-group">
-        <input type="text" id="search_text" class="form-control" 
-            onkeydown="if (event.keyCode == 13) { $('#search_button').click(); return false; }"
-            placeholder="Search" 
-        />
-        <span class="input-group-btn">
-        <button class="btn btn-primary"
-            id="search_button"
-            onclick="list_posts_by_query($('#search_text').val())">
-            <span class="glyphicon glyphicon-search"></span>
-        </button>
-        </span>
-    </div>
-    <br />
-
-    <div class="panel-group" id="date_accordion">
-
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#date_accordion" href="#collapse_2015-12-02">
-          2015-12-02
-        </a>
-      </h4>
-    </div>
-    <div id="collapse_2015-12-02" class="panel-collapse collapse">
-      <div class="panel-body">
-        <ul>
-        
-            <li><a href="/assessment.html">Assessment</a></li>
-        
-            <li><a href="/final-project.html">Final Project</a></li>
-        
-            <li><a href="/getting-started.html">Getting Started</a></li>
-        
-            <li><a href="/index.html">HIST5702W @ Carleton U 2016</a></li>
-        
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-</div>
-
-
-
-</div>
-
-<div class="col-sm-9">
-    <div id="taglist" style="display:none;">
-    
-    </div>
-    <h2 id="results">Results</h2>
-    <div id="posts"></div>
-</div>
-
-
-<script id="post_tpl" type="text/template">
-<h2><a href="{{post.url}}">{{post.title}}</a> 
-    <span class="text-muted pull-right">{{post.mdate_string}}</span>
-</h2>
-<p>{{post.blurb}} &mdash; <small class="text-muted">{{post.author}}</small></p>
-</script>
-
-<script id="search_result_tpl" type="text/template">
-<h3><a href="{{post.url}}">{{post.title}}</a> 
-    <span class="text-muted pull-right">{{post.mdate_string}}</span>
-</h3>
-<p>{{post.blurb}} &mdash; <small class="text-muted">{{post.author}}</small></p>
-</script>
-
-
+</p>
+<h1 id="syllabus">Syllabus</h1>
+<blockquote>
+<p>Blah blah blah</p>
+</blockquote>
+<h2 id="item-1">item 1</h2>
+<p>blah
+blah
+blah</p>
 
 </div>
 </div><!-- End #wrap -->
