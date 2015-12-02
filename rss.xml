@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
-    <title>Example Site</title>
+    <title>HIST5702W</title>
     <link>/</link>
     <description>Example Site Description</description>
     
     <item>
-        <title>Welcome</title>
+        <title>HIST5702W @ Carleton U 2016</title>
         <link>/index.html</link>
-        <pubDate>Wed, 02 Dec 2015 09:24:12 EST</pubDate>
-        <description>The default PyKwiki startup page.</description>
+        <pubDate>Wed, 02 Dec 2015 09:52:53 EST</pubDate>
+        <description>Course Site.</description>
     </item>    
     
 </channel>
