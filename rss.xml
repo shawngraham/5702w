@@ -6,6 +6,13 @@
     <description>Example Site Description</description>
     
     <item>
+        <title>Open Access</title>
+        <link>/openaccess.html</link>
+        <pubDate>Wed, 02 Dec 2015 11:50:19 EST</pubDate>
+        <description>[TOC]  Open Access Research As historians, we aren't all that accustomed to sharing our research notes. We go to the archives, we take our photographs, we spend *hours* pouring over documents, photographs, diaries, newspapers... why should someone else benefit from *our* work? There are a number of reasons why...</description>
+    </item>    
+    
+    <item>
         <title>Getting Started</title>
         <link>/getting-started.html</link>
         <pubDate>Wed, 02 Dec 2015 11:17:54 EST</pubDate>
