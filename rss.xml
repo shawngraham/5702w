@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+    <title>Example Site</title>
+    <link>http://grad.craftingdigitalhistory.ca/</link>
+    <description>Example Site Description</description>
+    
+    <item>
+        <title>Welcome</title>
+        <link>http://grad.craftingdigitalhistory.ca/index.html</link>
+        <pubDate>Tue, 01 Dec 2015 22:35:23 EST</pubDate>
+        <description>The default PyKwiki startup page.</description>
+    </item>    
+    
+</channel>
+</rss>
