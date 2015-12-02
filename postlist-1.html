@@ -25,73 +25,98 @@
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <a href="/futureproof.html">Future Proofing your Research</a> 
+        <a href="/index.html">HIST5702W @ Carleton U 2016</a> 
         <span class="pull-right text-muted">2015-12-02</span>
     </div>
     <div class="panel-body">
         
             <div class="htmltruncate-md">
-                <div class="toc">
-<ul>
-<li><a href="#future-proofing-your-research">Future Proofing Your Research</a><ul>
-<li><a href="#bricks">Bricks</a></li>
-<li><a href="#backups-and-security">Backups and security</a></li>
-<li><a href="#the-lesson">The lesson</a></li>
-</ul>
-</li>
-<li><a href="#needful-things">Needful things</a></li>
-</ul>
+                <div class="jumbotron row">
+    <div class="col-sm-6">    
+    <h1><span class="text-primary">HIST5702w</span></h1>
+    </div>
+    <div class="col-sm-6">
+    <h3 class="text-muted">How do we communicate digital history?</h2>
+    <p>
+    <a href="/getting-started.html" class="btn btn-lg btn-primary">Syllabus &raquo;</a>
+    <a href="/final-project.html" class="btn btn-md">Final Project 
+        <span class="glyphicon glyphicon-ok"></span></a>
+    <a href="/assessment.html" class="btn btn-md">Assessment 
+        <span class="glyphicon glyphicon-download"></span></a>
+    </p>
+    </div>
 </div>
-<h1 id="future-proofing-your-research">Future Proofing Your Research</h1>
-<p>Back in 2003, Roy Rosenzweig wrote <a href="http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=6">Scarcity or Abundance? Preserving the Past in a Digital Era</a>. Roy saw that the seeming abundance of historical materials online was illusory, that without proper training and funding, we would <em>lose</em> materials. If anything <a href="http://www.theatlantic.com/technology/archive/2015/11/the-irony-of-writing-about-digital-preservation/416184/">things have gotten worse</a>. However, there are important projects afoot that are trying to address this memory pit - projects like <a href="http://webarchives.ca/about">'Web Archives'</a> and <a href="https://archive.org">The Internet Archive</a>. Google around the Internet Archive though and you'll find that there are concerns. Recently, Scott Weingart wrote about the Shoah Digital Archive, and the ways the <a href="http://www.scottbot.net/HIAL/?p=41498">physicality of digital preservation can continue violence against the dead</a>. </p>
-<p>But let's dial back a bit. What about our personal research?</p>
-<h2 id="bricks">Bricks</h2>
-<p>I wrote my PhD from 1999 - 2002. I had a Toshiba laptop. I backed everything up onto iOmega zip drives. I was cutting edge, baby. One day, the screen on the laptop completely fritzed out. No problem; the laptop had a serial port, and I wired it up to a 17" (17 inches from about 8 before - this was <em>major</em>!) cathod-ray-tube monitor. Then the keys got too sticky with gunk, so I plugged in an external keyboard. My FrankenSystem got me through the PhD. </p>
-<p>Then, things changed. USB was invented. My life took me away from academia for a while. When I came back, and wanted my files, they were trapped - the 3.5" drive I had still worked, but none of my current machines had 3.5" drives. The woman from tech support managed to free the contents of my hard drive, and put them onto a cd-rom for me. All of my data was in dbase files; my writing was in .wpd files, and the graphics were in some format that used an unrecognizable file extension.</p>
-<p>What was worse, this was just what I <em>remembered</em>. I couldn't actually read my data because it was encrypted and compressed to save space on the harddrive, using some Microsoft utility that was discontinued in '99, and I couldn't solve this problem.</p>
-<p>Physical bricks, digital bricks: my data was all more or less lost. Only the stuff I published as <em>tables</em> at the appendix of my <em>printed</em> thesis survived, because I was able to OCR them and copy the data into Excel. (I did find some Excel files I made, but they were just awful, awful.)</p>
-<h2 id="backups-and-security">Backups and security</h2>
-<p>I invite you to read how I lost the <a href="electricarchaeology.ca/2012/05/18/how-i-lost-the-crowd-a-tale-of-sorrow-and-hope/">HeritageCrowd Project</a>. There, I built a horribly complicated system to encourage crowdsourced memories about the area. Because the site allowed user input forms connected to my database, robots (! - not even humans) were able to take down my site by first, abusing it to try to sell Viagra, and secondly, recognizing the site was compromised and taking it off line.</p>
-<p><em>Poof</em></p>
-<p>Work all gone. (Silver lining: an automatic backup of the mysql database was recovered). </p>
-<h2 id="the-lesson">The lesson</h2>
-<p>Two cautionary tales: hardware backups are only as good as they are current technology; writers of digital history need to be aware that there are other active agents involved. The other thing to observe concerns the technology that <em>did</em> work, printed paper. Paper has a lot going for it. It's a low-level tech in that reading it involves only being able to see it (whether or not you can read the language is a function of script as a technology, and the culture of teaching and social values in which you are embedded). For we digital historians, the lessons are this.</p>
-<ol>
-<li>have a backup and versioning strategy that transcends the hardware you happen to work with</li>
-<li>keep your data in as simple a format as possible - human readable, able to be printed cleanly if necessary, and (most importanlty) able to be read by any computer now and into the future. That is to say: write your text in plain text (txt or md files), and keep your data in plain text as well (that might mean a table where commas separate the values - csv - or tabs - tsv).</li>
-</ol>
-<p>Once we start figuring out our own personal futureproofing issues, we can begin to scale back up to the online world in general.</p>
-<h1 id="needful-things">Needful things</h1>
-<p>You will need then a text editor. Any of the default notepads or wordpads that come with your machine are not good enough (in most cases) because they still embed hidden typographic codes etc in your text. Download, and install either <a href="http://www.sublimetext.com/">Sublime Text</a> or <a href="https://atom.io/">Atom</a>. The next part of your toolkit is <a href="http://pandoc.org/">Pandoc</a>. Download and install it. Finally, go to <a href="http://github.com">Github</a> and sign up for an account. Download and install Github's desktop client.</p>
-<p>You will be astonished at the things you can do with a simple text editor and pandoc, with an online repository in which to host things. </p>
-<p>As you progress through this course, you will end up adding to this basic toolkit. About time we started using these wonderful machines for things more than cat videos, eh?</p>
-<p>(By the way, get <a href="http://screencast-o-matic.com/">Screen-cast-o-matic</a>. A quick video to share when things are going wrong does wonders for resolving stuff quickly).</p>
+
+<div class="col-sm-4">
+    <h1>Crafting</h1>
+    <a href="/crafting.html" target="_blank" class="thumbnail">
+        <img src="/uploads/noun_187297_cc.png" class="img-crafting" alt="Crafting">
+    </a>
+    <p>
+    How do we leverage digital media for our research? 
+    </p>
+    <a class="btn btn-lg btn-primary" href="/crafting.html">
+        Learn More &raquo;
+    </a>
+</div>
+
+<div class="col-sm-4">
+    <h1>Open Access</h1>
+    <a href="/openaccess.html" target="_blank" class="thumbnail">
+        <img src="/uploads/noun_13480.png" class="img-open-access" alt="OpenAccess">
+    </a>
+    <p>Open Access is more than putting data online: it is a transformation in your relationship with power, authority, and how you <b>do</b> history.
+    </p>
+    <a class="btn btn-lg btn-primary" href="/openaccess.html">
+        Learn more &raquo;
+    </a>
+</div>
+
+<div class="col-sm-4">
+    <h1>FutureProof</h1>
+    <a href="/futureproof.html" target="_blank" class="thumbnail">
+        <img src="/uploads/noun_27853_cc.png" class="img-robot" alt="Robot">
+    </a>
+    <p>Was it going to be a world of scarcity or abundance? Paradoxically, it is both. We will learn how to futureproof your research.</p>
+    <a class="btn btn-lg btn-primary" href="/futureproof.html">
+        Learn more &raquo;
+    </a>
+</div>
                 <div class="htmltruncate-bottom"></div>
             </div>
-            <a href="/futureproof.html" class="btn btn-default">...</a>
+            <a href="/index.html" class="btn btn-default">...</a>
         
     </div>
 </div>
 
 <div class="panel panel-default">
     <div class="panel-heading">
-        <a href="/final-project.html">Final Project</a> 
+        <a href="/assessment.html">Assessment</a> 
         <span class="pull-right text-muted">2015-12-02</span>
     </div>
     <div class="panel-body">
         
             <div class="htmltruncate-md">
-                <h1 id="you-can-build-a-video-game">You Can Build a Video Game</h1>
+                <h1 id="assessment">Assessment</h1>
+<p><strong>Active participation</strong> in the class discussion. Leadership and positive contributions to the class discussion, wherever that takes place. The course hashtag is #hist5702w. (I am <a href="http://twitter.com/electricarchaeo">@electricarchaeo</a> on Twitter). </p>
+<p><strong>Open Notebooks</strong>. 10 meeting entries (you are encouraged to make a repository in github just for these). For each meeting, half the students will be designated to post a reflection on the readings/tutorials <em>prior</em> to the discussion (that is, to be done by Friday night), and the other half will post a reflection on the class discussion (by Wednesday night). Blog posts will be short and pithy, ca 100-300 words. If you are working on a <a href="http://programminghistorian.org/">Programming Historian</a> tutorial, make a particular note about any hidden 'gotchas' you encounter. Video notes/walk throughs are encouraged; <a href="http://screencast-o-matic.com">Screen-cast-o-matic</a> is free, easy to use, and quite effective. You can post these on youtube, vimeo, or similar. If you're on twitter, feel free to tweet the links using the #hist5702w hashtag. </p>
+<p><strong>Project</strong>: the technologies of video games are an extremely powerful - and perhaps the natural?- form for digital work. The major project in this class will be to explore the issues of digital history as discussed in this course, evidenced through the creation of a playful engagement with the tutorials of <a href="http://programminghistorian.org/">the Programming Historian</a>. This can be an individual effort, or a collaborative effort.</p>
 <blockquote>
-<p>Video games are the new lively medium</p>
+<p>You will create digital history through a playful engagement with teaching digital history. </p>
 </blockquote>
-<h2 id="game-mechanics-for-immersive-history">Game mechanics for immersive history</h2>
-<p>blah
-blah
-blah</p>
+<p><strong>Reflective Short Unessay</strong>. This unessay reflects on the issues of digital history as experienced by the student in the course of completing the major project. Th length and format need only be 'appropriate' and 'compelling'. It can be built into a 'paradata' section to accompany your game. This unessay may be highly personal, and does not necessarily need to be 'written' in a text-forward dead-tree format. For more on ‘unessays’, see <a href="http://people.uleth.ca/~daniel.odonnell/Teaching/the-unessay">Daniel O'Donnell</a>. The grading of the project will follow the unessay conventions. We will talk about this.</p>
+<p>It would be a good idea to bring your laptop or device to each session.</p>
+<h3 id="you-do-not-have-to-work-in-isolation">You do not have to work in isolation</h3>
+<p>Digital history can be very frustrating. You don't have to work in isolation. You may collaborate; you can google for solutions; you can ask for advice on Twitter or elsewhere. Make sure, when you <em>do</em> get frustrated (and you will), to just walk away from the computer. There is more than one way to do things digital, and when you're frustrated you won't find <em>any</em> of them. Shut it down, go for a walk, have a coffee. Come back when you're fresh.</p>
+<p>But <em>do</em> acknowledge in your work any collaboration or help you have received.</p>
+<h2 id="grading">Grading:</h2>
+<p>Class Participation: 30%</p>
+<p>Open notebook entries: 20%</p>
+<p>Contribution to Major Project: 30%</p>
+<p>Final reflection: 20%</p>
                 <div class="htmltruncate-bottom"></div>
             </div>
-            <a href="/final-project.html" class="btn btn-default">...</a>
+            <a href="/assessment.html" class="btn btn-default">...</a>
         
     </div>
 </div>
