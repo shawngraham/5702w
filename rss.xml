@@ -6,17 +6,17 @@
     <description>Example Site Description</description>
     
     <item>
+        <title>Getting Started</title>
+        <link>/getting-started.html</link>
+        <pubDate>Wed, 02 Dec 2015 11:58:27 EST</pubDate>
+        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to a few questions, and our objectives for the course are to move us...</description>
+    </item>    
+    
+    <item>
         <title>Open Access</title>
         <link>/openaccess.html</link>
         <pubDate>Wed, 02 Dec 2015 11:50:19 EST</pubDate>
         <description>[TOC]  Open Access Research As historians, we aren't all that accustomed to sharing our research notes. We go to the archives, we take our photographs, we spend *hours* pouring over documents, photographs, diaries, newspapers... why should someone else benefit from *our* work? There are a number of reasons why...</description>
-    </item>    
-    
-    <item>
-        <title>Getting Started</title>
-        <link>/getting-started.html</link>
-        <pubDate>Wed, 02 Dec 2015 11:17:54 EST</pubDate>
-        <description>[TOC]  Syllabus ![brown](/uploads/Doc-Brown-Martin-Casanova.jpg)  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to a few questions, and our objectives for the course are to move us closer to...</description>
     </item>    
     
     <item>
