@@ -299,6 +299,8 @@ $(document).ready(function() {
       <div class="panel-body">
         <ul>
         
+            <li><a href="/about.html">About</a></li>
+        
             <li><a href="/assessment.html">Assessment</a></li>
         
             <li><a href="/final-project.html">Final Project</a></li>
@@ -321,6 +323,14 @@ $(document).ready(function() {
 
 <div class="col-sm-9">
     <div id="taglist" style="display:none;">
+    
+        <a class="label label-default" href="#" onclick="list_posts_by_tag('assessment'); return false;">assessment <b class="glyphicon glyphicon-tag"></b></a>
+    
+        <a class="label label-default" href="#" onclick="list_posts_by_tag('citations'); return false;">citations <b class="glyphicon glyphicon-tag"></b></a>
+    
+        <a class="label label-default" href="#" onclick="list_posts_by_tag('games'); return false;">games <b class="glyphicon glyphicon-tag"></b></a>
+    
+        <a class="label label-default" href="#" onclick="list_posts_by_tag('instructions'); return false;">instructions <b class="glyphicon glyphicon-tag"></b></a>
     
     </div>
     <h2 id="results">Results</h2>
