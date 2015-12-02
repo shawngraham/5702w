@@ -6,8 +6,9 @@
     
     
     <title>Search | Example Site</title>
-    <link rel="stylesheet" href="/5702w/static/bootstrap3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/5702w/static/codehilite/manni.css">
+    <link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/bootstrap3/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="/static/codehilite/manni.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <style type="text/css">
     html, body { height: 100%; }
@@ -43,10 +44,10 @@
 
     .toc { 
         float: right;
-        border: 1px solid #f5f5f5;
+        border: 2px solid #efefef;
         background: #f5f5f5;
         padding: 5px;
-        border-radius: 10px;
+        border-radius: 3px;
         color: #999;
     }
     .toc ul, .toc li, .toc ul li { 
@@ -90,7 +91,7 @@
 
 
 
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
     <div class="navbar-header">
         <button class="navbar-toggle" data-toggle="collapse" 
@@ -99,7 +100,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/5702w/">Home</a>
+        <a class="navbar-brand" href="/">Home</a>
     </div>
     <div class="navbar-collapse collapse" style="max-height: none;">
     <ul class="nav navbar-nav">
@@ -132,7 +133,7 @@
 
     <form class="navbar-form navbar-right" role="search" 
         method="get"
-        action="/5702w/search.html">
+        action="/search.html">
       <div class="form-group">
         <input type="text" name="q" class="form-control" placeholder="Search">
       </div>
@@ -231,7 +232,7 @@ function list_posts_by_query(search) {
 
 function index_cb(data) { 
     idx = data;
-    $.get('/5702w/posts.json',
+    $.get('/posts.json',
         function(data) { 
             if(data) {
                 post_data_cb(data);                
@@ -258,8 +259,7 @@ function post_data_cb(data) {
 
 $(document).ready(function() { 
     // Get the search index file
-    $('#posts').html('Loading search index...');
-    $.get('/5702w/idx.json',
+    $.get('/idx.json',
         function(data) { 
             if(data) {
                 index_cb(data);                
@@ -299,7 +299,7 @@ $(document).ready(function() {
       <div class="panel-body">
         <ul>
         
-            <li><a href="http://shawngraham.github.io//5702w/index.html">Welcome</a></li>
+            <li><a href="/index.html">Welcome</a></li>
         
         </ul>
       </div>
@@ -319,8 +319,17 @@ $(document).ready(function() {
         <a class="label label-default" href="#" onclick="list_posts_by_tag('pykwiki'); return false;">pykwiki <b class="glyphicon glyphicon-tag"></b></a>
     
     </div>
+
     <h2 id="results">Results</h2>
-    <div id="posts"></div>
+    <div id="posts">
+
+        <div class="progress progress-striped active">
+          <div class="progress-bar"  role="progressbar" 
+                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+          </div>
+        </div>
+
+    </div>
 </div>
 
 
@@ -360,14 +369,17 @@ $(document).ready(function() {
 
         <div class="clearfix"></div>
     </div>
+
+    
+
 </div>
 
-<script src="/5702w/static/bootstrap3/js/bootstrap.min.js"></script>
-<script src="/5702w/static/mustachejs/mustache.js"></script>
+<script src="/static/bootstrap3/js/bootstrap.min.js"></script>
+<script src="/static/mustachejs/mustache.js"></script>
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  <script src="/5702w/static/respond.min.js"></script>
+  <script src="/static/respond.min.js"></script>
 <![endif]-->   
 
 </body>

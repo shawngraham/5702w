@@ -2,12 +2,12 @@
 <rss version="2.0">
 <channel>
     <title>Example Site</title>
-    <link>http://shawngraham.github.io//5702w</link>
+    <link>/</link>
     <description>Example Site Description</description>
     
     <item>
         <title>Welcome</title>
-        <link>http://shawngraham.github.io//5702w/index.html</link>
+        <link>/index.html</link>
         <pubDate>Tue, 01 Dec 2015 22:35:23 EST</pubDate>
         <description>The default PyKwiki startup page.</description>
     </item>    
