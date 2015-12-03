@@ -6,17 +6,24 @@
     <description>Example Site Description</description>
     
     <item>
-        <title>Assessment</title>
-        <link>/assessment.html</link>
-        <pubDate>Wed, 02 Dec 2015 21:16:16 EST</pubDate>
-        <description> Assessment **Active participation** in the class discussion. Leadership and positive contributions to the class discussion, wherever that takes place. The course hashtag is hist5702w. (I am [@electricarchaeo](http://twitter.com/electricarchaeo) on Twitter). Each week will involve one or two students giving us a warts-and-all post-mortem on a programming historian tutorial. You will...</description>
+        <title>Getting Started</title>
+        <link>/getting-started.html</link>
+        <pubDate>Wed, 02 Dec 2015 21:30:10 EST</pubDate>
+        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to the questions below, so I look forward to puzzling these out with...</description>
     </item>    
     
     <item>
         <title>Final Project</title>
         <link>/final-project.html</link>
-        <pubDate>Wed, 02 Dec 2015 21:16:16 EST</pubDate>
+        <pubDate>Wed, 02 Dec 2015 21:29:48 EST</pubDate>
         <description>[TOC]  You Can Build a Video Game  Video games are the new lively medium  iframe width="420" height="315" src="https://www.youtube.com/embed/PVbCECjxFds" frameborder="0" allowfullscreen/iframe Before you go any further, I would like you to play some pieces of 'ergodic' literature ('ergodic' in that they take work to 'read'): - Buried, by...</description>
+    </item>    
+    
+    <item>
+        <title>Assessment</title>
+        <link>/assessment.html</link>
+        <pubDate>Wed, 02 Dec 2015 21:16:16 EST</pubDate>
+        <description> Assessment **Active participation** in the class discussion. Leadership and positive contributions to the class discussion, wherever that takes place. The course hashtag is hist5702w. (I am [@electricarchaeo](http://twitter.com/electricarchaeo) on Twitter). Each week will involve one or two students giving us a warts-and-all post-mortem on a programming historian tutorial. You will...</description>
     </item>    
     
     <item>
@@ -38,13 +45,6 @@
         <link>/crafting.html</link>
         <pubDate>Wed, 02 Dec 2015 21:16:13 EST</pubDate>
         <description>[TOC]  On Craftiness img src="/uploads/inspiration.png" style="PADDING-RIGHT: 5px"align="left"Great art comes from inspiration. Technical skill, yes of course. But 'inspiration' - the divine breath. Science? Science requires hard work and graft. Careful observation, attention to detail, replication, routine and method. Carefully record everything, and someone else could (should be able to)...</description>
-    </item>    
-    
-    <item>
-        <title>Getting Started</title>
-        <link>/getting-started.html</link>
-        <pubDate>Wed, 02 Dec 2015 21:16:12 EST</pubDate>
-        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to the questions below, so I look forward to puzzling these out with...</description>
     </item>    
     
     <item>
