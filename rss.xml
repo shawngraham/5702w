@@ -6,24 +6,38 @@
     <description>Example Site Description</description>
     
     <item>
-        <title>HIST5702W @ Carleton U 2016</title>
-        <link>/index.html</link>
-        <pubDate>Wed, 02 Dec 2015 14:00:39 EST</pubDate>
-        <description>Course Site.</description>
+        <title>Assessment</title>
+        <link>/assessment.html</link>
+        <pubDate>Wed, 02 Dec 2015 19:23:20 EST</pubDate>
+        <description> Assessment **Active participation** in the class discussion. Leadership and positive contributions to the class discussion, wherever that takes place. The course hashtag is hist5702w. (I am [@electricarchaeo](http://twitter.com/electricarchaeo) on Twitter). **Open Notebooks**. 9 meeting entries (you are encouraged to make a repository in github just for these), plus 1 session...</description>
     </item>    
     
     <item>
-        <title>Assessment</title>
-        <link>/assessment.html</link>
-        <pubDate>Wed, 02 Dec 2015 13:59:31 EST</pubDate>
-        <description> Assessment **Active participation** in the class discussion. Leadership and positive contributions to the class discussion, wherever that takes place. The course hashtag is hist5702w. (I am [@electricarchaeo](http://twitter.com/electricarchaeo) on Twitter). **Open Notebooks**. 10 meeting entries (you are encouraged to make a repository in github just for these). For each meeting,...</description>
+        <title>Getting Started</title>
+        <link>/getting-started.html</link>
+        <pubDate>Wed, 02 Dec 2015 19:23:19 EST</pubDate>
+        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to the questions below, so I look forward to puzzling these out with...</description>
+    </item>    
+    
+    <item>
+        <title>About</title>
+        <link>/about.html</link>
+        <pubDate>Wed, 02 Dec 2015 19:23:17 EST</pubDate>
+        <description>[TOC]  Shawn Graham Associate Prof of Digital Humanities [@electricarchaeo](http://twitter.com/electricarchaeo) - research blog at [electric archaeology](http://electricarchaeology.ca) - open notebook at [shawngraham.github.io](http://shawngraham.github.io) - office at PA 406 - email at shawn dot graham at carleton dot ca - Office hours by chance or arrangement iframe width="560" height="315" src="https://www.youtube.com/embed/HaSblM-Qz3A" frameborder="0" allowfullscreen/iframe ...</description>
     </item>    
     
     <item>
         <title>Future Proofing your Research</title>
         <link>/futureproof.html</link>
-        <pubDate>Wed, 02 Dec 2015 13:55:20 EST</pubDate>
+        <pubDate>Wed, 02 Dec 2015 19:23:15 EST</pubDate>
         <description>[TOC]  Future Proofing Your Research Back in 2003, Roy Rosenzweig wrote [Scarcity or Abundance? Preserving the Past in a Digital Era](http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=6). Roy saw that the seeming abundance of historical materials online was illusory, that without proper training and funding, we would *lose* materials. If anything [things have gotten worse](http://www.theatlantic.com/technology/archive/2015/11/the-irony-of-writing-about-digital-preservation/416184/)....</description>
+    </item>    
+    
+    <item>
+        <title>HIST5702W @ Carleton U 2016</title>
+        <link>/index.html</link>
+        <pubDate>Wed, 02 Dec 2015 14:00:39 EST</pubDate>
+        <description>Course Site.</description>
     </item>    
     
     <item>
@@ -38,20 +52,6 @@
         <link>/openaccess.html</link>
         <pubDate>Wed, 02 Dec 2015 13:44:59 EST</pubDate>
         <description>[TOC]  Open Access Research _Open access is not simply about putting data online._ (A deep discussion about the failings of the techno-utopianism of 'the digital' is [Colleen Morgan](https://middlesavagery.wordpress.com/)'s [phd thesis](https://www.academia.edu/2997156/Emancipatory_Digital_Archaeology)). Open access means making our data available in *useful* formats; it means *exposing our thought process*. It implies transparency...</description>
-    </item>    
-    
-    <item>
-        <title>Getting Started</title>
-        <link>/getting-started.html</link>
-        <pubDate>Wed, 02 Dec 2015 13:17:26 EST</pubDate>
-        <description>[TOC]  Syllabus img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"  _Where we're going, we don't need roads_. (Brown, 1985)  Objectives: I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to the questions below, so I look forward to puzzling these out with...</description>
-    </item>    
-    
-    <item>
-        <title>About</title>
-        <link>/about.html</link>
-        <pubDate>Wed, 02 Dec 2015 12:01:02 EST</pubDate>
-        <description>[TOC]  Shawn Graham Associate Prof of Digital Humanities [@electricarchaeo](http://twitter.com/electricarchaeo) - research blog at [electric archaeology](http://electricarchaeology.ca) - open notebook at [shawngraham.github.io](http://shawngraham.github.io) - office at PA 406 - email at shawn dot graham at carleton dot ca - Office hours by chance or arrangement iframe width="560" height="315" src="https://www.youtube.com/embed/HaSblM-Qz3A" frameborder="0" allowfullscreen/iframe ...</description>
     </item>    
     
 </channel>

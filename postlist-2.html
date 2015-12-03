@@ -27,6 +27,57 @@
 
 <div class="panel panel-default">
     <div class="panel-heading">
+        <a href="/about.html">About</a> 
+        <span class="pull-right text-muted">2015-12-02</span>
+    </div>
+    <div class="panel-body">
+        
+            <div class="htmltruncate-md">
+                <div class="toc">
+<ul>
+<li><a href="#shawn-graham">Shawn Graham</a><ul>
+<li><a href="#about-this-site">About this site</a><ul>
+<li><a href="#workflow">Workflow</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 id="shawn-graham">Shawn Graham</h1>
+<p>Associate Prof of Digital Humanities
+<a href="http://twitter.com/electricarchaeo">@electricarchaeo</a>
+- research blog at <a href="http://electricarchaeology.ca">electric archaeology</a>
+- open notebook at <a href="http://shawngraham.github.io">shawngraham.github.io</a>
+- office at PA 406
+- email at shawn dot graham at carleton dot ca
+- Office hours by chance or arrangement</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HaSblM-Qz3A" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="about-this-site">About this site</h2>
+<p>This site is powered by <a href="http://pykwiki.nullism.com/">PyKwiki</a> (see below)</p>
+<p>Icons are from the <a href="https://thenounproject.com/">Noun Project</a>:</p>
+<ul>
+<li>'Designer' by Marie Van den Broeck from the Noun Project</li>
+<li>'Lock', by Jafri Ali </li>
+<li>'Robot', by Rutmer Zijlstra</li>
+</ul>
+<p>Other images:
+- 'Doc Brown' by Martin Casanova
+- 'Burnt and abandoned computer' by <a href="https://www.flickr.com/photos/drainrat/13262802714">Darkday</a> </p>
+<h3 id="workflow">Workflow</h3>
+<p>This site is a static site generated using the python package 'PyKwiki'. Individual files are written in markdown format. Then, at the command line, I run <code>$ python pywkiki cache -f</code> which reads all of my markdown files and turns them into static html. These html files are then synced to a github repository on the gh-pages branch. That branch is configured using a <code>CNAME</code> file to point to the subdomain I registered for this course, <code>grad.craftingdigitalhistory.ca</code>.  That subdomain is similarly configured with a <code>CNAME</code> entry via the cpanel to point back to <code>shawngraham.github.io</code>. This way, instead of futzing with ftp, I use version control to keep everything in sync. This also has the happy side effect that you can fork a copy of this site for your own reference.</p>
+<p>I've used wordpress blogs in the past for course websites, and these work well enough. But I've become disenchanted with the Wordpress interface, and I rather like the idea of writing once, deploying everywhere. When I write in markdown, the plain text files stay with me and I can use <code>pandoc</code> to convert them to whatever else I need. The other thing is, these files will always remain machine readable, whatever Microscoft or Apple do. </p>
+<p>You, too, will learn how to do this.</p>
+                <div class="htmltruncate-bottom"></div>
+            </div>
+            <a href="/about.html" class="btn btn-default">...</a>
+        
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
         <a href="/futureproof.html">Future Proofing your Research</a> 
         <span class="pull-right text-muted">2015-12-02</span>
     </div>
@@ -48,7 +99,8 @@
 <p>Back in 2003, Roy Rosenzweig wrote <a href="http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=6">Scarcity or Abundance? Preserving the Past in a Digital Era</a>. Roy saw that the seeming abundance of historical materials online was illusory, that without proper training and funding, we would <em>lose</em> materials. If anything <a href="http://www.theatlantic.com/technology/archive/2015/11/the-irony-of-writing-about-digital-preservation/416184/">things have gotten worse</a>. However, there are important projects afoot that are trying to address this memory pit - projects like <a href="http://webarchives.ca/about">'Web Archives'</a> and <a href="https://archive.org">The Internet Archive</a>. Google around the Internet Archive though and you'll find that there are concerns. Recently, Scott Weingart wrote about the Shoah Digital Archive, and the ways the <a href="http://www.scottbot.net/HIAL/?p=41498">physicality of digital preservation can continue violence against the dead</a>. </p>
 <p>But let's dial back a bit. What about our personal research?</p>
 <h2 id="bricks">Bricks</h2>
-<p>I wrote my PhD from 1999 - 2002. I had a Toshiba laptop. I backed everything up onto iOmega zip drives. I was cutting edge, baby. One day, the screen on the laptop completely fritzed out. No problem; the laptop had a serial port, and I wired it up to a 17" (17 inches from about 8 before - this was <em>major</em>!) cathod-ray-tube monitor. Then the keys got too sticky with gunk, so I plugged in an external keyboard. My FrankenSystem got me through the PhD. </p>
+<p><img src="/uploads/burntcomputer .jpg" style="PADDING-RIGHT: 5px"align="right">
+I wrote my PhD from 1999 - 2002. I had a Toshiba laptop. I backed everything up onto iOmega zip drives. I was cutting edge, baby. One day, the screen on the laptop completely fritzed out. No problem; the laptop had a serial port, and I wired it up to a 17" (17 inches from about 8 before - this was <em>major</em>!) cathod-ray-tube monitor. Then the keys got too sticky with gunk, so I plugged in an external keyboard. My FrankenSystem got me through the PhD. </p>
 <p>Then, things changed. USB was invented. My life took me away from academia for a while. When I came back, and wanted my files, they were trapped - the 3.5" drive I had still worked, but none of my current machines had 3.5" drives. The woman from tech support managed to free the contents of my hard drive, and put them onto a cd-rom for me. All of my data was in dbase files; my writing was in .wpd files, and the graphics were in some format that used an unrecognizable file extension.</p>
 <p>What was worse, this was just what I <em>remembered</em>. I couldn't actually read my data because it was encrypted and compressed to save space on the harddrive, using some Microsoft utility that was discontinued in '99, and I couldn't solve this problem.</p>
 <p>Physical bricks, digital bricks: my data was all more or less lost. Only the stuff I published as <em>tables</em> at the appendix of my <em>printed</em> thesis survived, because I was able to OCR them and copy the data into Excel. (I did find some Excel files I made, but they were just awful, awful.)</p>
@@ -71,29 +123,6 @@
                 <div class="htmltruncate-bottom"></div>
             </div>
             <a href="/futureproof.html" class="btn btn-default">...</a>
-        
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <a href="/final-project.html">Final Project</a> 
-        <span class="pull-right text-muted">2015-12-02</span>
-    </div>
-    <div class="panel-body">
-        
-            <div class="htmltruncate-md">
-                <h1 id="you-can-build-a-video-game">You Can Build a Video Game</h1>
-<blockquote>
-<p>Video games are the new lively medium</p>
-</blockquote>
-<h2 id="game-mechanics-for-immersive-history">Game mechanics for immersive history</h2>
-<p>blah
-blah
-blah</p>
-                <div class="htmltruncate-bottom"></div>
-            </div>
-            <a href="/final-project.html" class="btn btn-default">...</a>
         
     </div>
 </div>
