@@ -6,10 +6,17 @@
     <description>Example Site Description</description>
     
     <item>
+        <title>HIST5702W @ Carleton U 2016</title>
+        <link>/index.html</link>
+        <pubDate>Fri, 04 Dec 2015 22:51:15 EST</pubDate>
+        <description>Course Site.</description>
+    </item>    
+    
+    <item>
         <title>Schedule, Readings & Tutorials</title>
         <link>/weekly.html</link>
-        <pubDate>Fri, 04 Dec 2015 22:46:05 EST</pubDate>
-        <description>[TOC]  Schedule, Readings & Tutorials ![](http://programminghistorian.org/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png)![](http://programminghistorian.org/gallery/getting-started-with-markdown.png)  General pattern Each week, we will begin Monday at 9 to allow for childcare arrangements. You are welcome to arrive at 8.30 as per the official schedule, but I will not begin until 9. Consequently, I will also not be stopping for...</description>
+        <pubDate>Fri, 04 Dec 2015 22:49:20 EST</pubDate>
+        <description>[TOC]  Schedule, Readings & Tutorials ![](http://programminghistorian.org/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png)  General pattern Each week, we will begin Monday at 9 to allow for childcare arrangements. You are welcome to arrive at 8.30 as per the official schedule, but I will not begin until 9. Consequently, I will also not be stopping for...</description>
     </item>    
     
     <item>
@@ -52,13 +59,6 @@
         <link>/crafting.html</link>
         <pubDate>Wed, 02 Dec 2015 21:16:13 EST</pubDate>
         <description>[TOC]  On Craftiness img src="/uploads/inspiration.png" style="PADDING-RIGHT: 5px"align="left"Great art comes from inspiration. Technical skill, yes of course. But 'inspiration' - the divine breath. Science? Science requires hard work and graft. Careful observation, attention to detail, replication, routine and method. Carefully record everything, and someone else could (should be able to)...</description>
-    </item>    
-    
-    <item>
-        <title>HIST5702W @ Carleton U 2016</title>
-        <link>/index.html</link>
-        <pubDate>Wed, 02 Dec 2015 14:00:39 EST</pubDate>
-        <description>Course Site.</description>
     </item>    
     
     <item>
