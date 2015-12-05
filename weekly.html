@@ -1,41 +1,180 @@
-<ul class="pagination">
-  
-  
-    <li class="active">
-        <a href="#" onclick="load_postlist(1); return false;">1</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(2); return false;">2</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(3); return false;">3</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(4); return false;">4</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(5); return false;">5</a>
-    </li>
-  
-  
-  <li><a href="#" onclick="load_postlist(2); return false;">&raquo;</a></li>
-  
-</ul>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<meta name="description" content="Example Site Description">
+<meta name="keywords" content="instructions,syllabus,assessment">
+
+    <title>Schedule, Readings & Tutorials | HIST5702W</title>
+    <link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/codehilite/manni.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <style type="text/css">
+    html, body { height: 100%; }
+
+    h1:target, h2:target, h3:target { 
+        background-color: #dfd;
+    }
+
+    #wrap {
+        min-height: 100%;
+        height: auto;
+        /* Negative indent footer by its height */
+        margin: 0 auto -60px;
+        /* Pad bottom by footer height */
+        padding: 0 0 60px;
+    }
+
+    #footer {
+        height: 60px;
+        padding-top: 20px;
+        background: #eee;
+    }
+    #footer .social-div { 
+        float: left;
+        margin-left: 10px;
+    }
+
+    .link_section {
+        padding: 3px;
+        margin: 0px; 
+        font-weight: bold;
+    }
+
+    .toc { 
+        float: right;
+        border: 1px solid #f5f5f5;
+        background: #f5f5f5;
+        padding: 5px;
+        border-radius: 10px;
+        color: #999;
+    }
+    .toc ul, .toc li, .toc ul li { 
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+
+    .htmltruncate-lg, .htmltruncate-md, .htmltruncate-sm { 
+        overflow: hidden;
+        position: relative;
+        border-bottom: 2px dashed #eee;
+        margin-bottom: 5px;
+        min-height: 60px;
+    }
+    .htmltruncate-bottom { 
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: none;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, #fff 100%);
+        z-index: 100;
+        height: 60px;
+    }
+    .htmltruncate-lg {
+        max-height: 500px;
+    }
+    .htmltruncate-md { 
+        max-height: 300px;
+    }
+    .htmltruncate-sm { 
+        max-height: 150px;
+    }
+    </style> 
+    <script>
+    // Globals
+    var has_gaq = false;
+    </script>
+</head>
+<body>
 
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <a href="/weekly.html">Schedule, Readings & Tutorials</a> 
-        <span class="pull-right text-muted">2015-12-04</span>
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" 
+                data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Home</a>
     </div>
-    <div class="panel-body">
+    <div class="navbar-collapse collapse" style="max-height: none;">
+    <ul class="nav navbar-nav">
+    
         
-            <div class="htmltruncate-md">
-                <div class="toc">
+            <li>
+            
+                <a href="/index.html" target="_self">Welcome</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="/getting-started.html" target="_self">Syllabus</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="posts.html" target="_self">Posts</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="search.html" target="_self">Search</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="about" target="_self">About this site</a>
+            
+            </li>
+        
+    
+    </ul>
+
+    <form class="navbar-form navbar-right" role="search" 
+        method="get"
+        action="/search.html">
+      <div class="form-group">
+        <input type="text" name="q" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+    </div>
+    </div>
+</div>
+<div id="wrap">
+<div class="container" style="padding-top: 60px;">
+
+<p>
+
+    <a class="label label-default"
+        href="/search.html?t=instructions">instructions <b class="glyphicon glyphicon-tag"></b></a>
+
+    <a class="label label-default"
+        href="/search.html?t=syllabus">syllabus <b class="glyphicon glyphicon-tag"></b></a>
+
+    <a class="label label-default"
+        href="/search.html?t=assessment">assessment <b class="glyphicon glyphicon-tag"></b></a>
+
+</p>
+<div class="toc">
 <ul>
 <li><a href="#schedule-readings-tutorials">Schedule, Readings &amp; Tutorials</a><ul>
 <li><a href="#general-pattern">General pattern</a></li>
@@ -147,95 +286,51 @@ Hands on with <a href="http://twinery.org">Twine</a>; hands on with <a href="htt
 <h4 id="april-4">April 4</h4>
 <p>Feedback on your games of digital history</p>
 <p><em>It is my hope that we can perhaps publish your final projects with</em> The Programming Historian <em>or other suitable venue. As you will discover, text-based tutorials only go so far... and the process of translating how we</em> do <em>digital history into a medium of representation for history should be illuminating...</em></p>
-                <div class="htmltruncate-bottom"></div>
-            </div>
-            <a href="/weekly.html" class="btn btn-default">...</a>
+
+</div>
+</div><!-- End #wrap -->
+<div id="footer">
+    <div class="container">
+    
+        <div class="social-div">
+        <p class="text-muted credit"><br/><small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. 2015, HIST5702W
+        &mdash; powered by <a href="http://pykwiki.nullism.com">PyKwiki</a></small>
+        </p>
+        </div>
+
         
+        <div class="social-div">
+            <iframe src="http://ghbtns.com/github-btn.html?user=shawngraham&amp;repo=5702w&amp;type=watch"
+                style="border: 0px; width: 53px; height: 20px; overflow: hidden;"></iframe>
+            <iframe src="http://ghbtns.com/github-btn.html?user=shawngraham&amp;repo=5702w&amp;type=fork"
+                style="border: 0px; width: 53px; height: 20px; overflow: hidden;"></iframe>
+        </div>
+        
+
+        
+
+        
+        <div class="social-div">
+        <a href="https://twitter.com/twitter.com/electricarchaeo" class="twitter-follow-button" data-show-count="false">Follow @twitter.com/electricarchaeo</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                    if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script>
+        </div>
+        
+
+
+        <div class="clearfix"></div>
     </div>
 </div>
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <a href="/getting-started.html">Getting Started</a> 
-        <span class="pull-right text-muted">2015-12-02</span>
-    </div>
-    <div class="panel-body">
-        
-            <div class="htmltruncate-md">
-                <div class="toc">
-<ul>
-<li><a href="#syllabus">Syllabus</a><ul>
-<li><a href="#objectives">Objectives:</a></li>
-</ul>
-</li>
-<li><a href="#final-project-outcome">Final Project Outcome:</a><ul>
-<li><a href="#minor-outcomes">Minor outcomes:</a></li>
-</ul>
-</li>
-<li><a href="#digital-identity">Digital Identity</a></li>
-</ul>
-</div>
-<h1 id="syllabus">Syllabus</h1>
-<p><img src="/uploads/Doc-Brown-Martin-Casanova.jpg" style="PADDING-RIGHT: 5px"align="left"></p>
-<blockquote>
-<p><em>Where we're going, we don't need roads</em>. (Brown, 1985)</p>
-</blockquote>
-<h2 id="objectives">Objectives:</h2>
-<p>I've been doing digital archaeology and digital history for over ten years. I still don't know the answer to the questions below, so I look forward to puzzling these out with you over the duration of the course:</p>
-<ul>
-<li>what <em>is</em> digital history? </li>
-<li>how do we <em>do</em> good digital history?</li>
-<li>what is <em>good</em> digital history, anyway?</li>
-<li>how do we <em>write</em> history, digitally?</li>
-</ul>
-<p>That is to say, digital history is sometimes about tools and methods, but other times about theory. Sometimes it is about representation and consumption, and other times about production. I'm pretty sure it decentres the professional historian, but sometimes, it puts us firmly back in the driver's seat. I do know that there are no roads; there might not even be maps.</p>
-<p>In which case, we are going to explore these issues as they pertain to Public History. In particular, we are going to learn how to communicate these issues via 'playful' technologies. Some of this will be in the context of a public museum and the implications for the practice of Public History.</p>
-<h1 id="final-project-outcome">Final Project Outcome:</h1>
-<p>The <a href="final-project.html">creation of a major mixed media project</a> with associated digital repository, demonstrating an awareness of the ways digital history can be used to bridge professional practice and the public.</p>
-<h2 id="minor-outcomes">Minor outcomes:</h2>
-<p>A body of public reflections on the process of doing digital history; a reflection on the entire process of doing the final project that expresses a critical evaluation of the evolution of the student’s engagement with digital history.</p>
-<h1 id="digital-identity">Digital Identity</h1>
-<blockquote>
-<p>An essential part of the life of the scholar […] is your digital identity. How do you present online when people find you through a Google search (as they inevitably will)? What kind of scholar are you? What are your skills? Your interests? Are you an interesting person? Do you take part in debates of consequence? It used to be that outside of our circle of close friends and colleagues, others knew us through our published work. In today’s scholarly ecosystem, we are known by our digital footprint as well as by our “published” work.”</p>
-</blockquote>
-<p>—Mills Kelly</p>
-<p>There is a developing ecosystem of digital artefacts that form an increasingly more important part of one’s scholarly persona. You need to think carefully about how you present yourself online, and if you aren’t already doing so, crafting a niche for yourself there. You may wish to obtain a domain name of your own; I would recommend <a href="http://reclaimhosting.com">Reclaim Hosting</a> as a place to start. For the purposes of this course, you will be setting up hosting for your course work via a free account with <a href="http://github.com">github.com</a></p>
-<p>Now, make sure you read the sections on <a href="crafting.html">crafting</a>, <a href="openaccess.html">open access workflows</a>, and <a href="futureproof.html">future proofing your research</a>.</p>
-<p>Then, please see the details regarding 
-<a href="assessment.html">Assessment</a> | <a href="final-project.html">Final Project</a> | <a href="weekly.html">Weekly Schedule, Readings, and ProgHist tutorials</a></p>
-                <div class="htmltruncate-bottom"></div>
-            </div>
-            <a href="/getting-started.html" class="btn btn-default">...</a>
-        
-    </div>
-</div>
+<script src="/static/bootstrap3/js/bootstrap.min.js"></script>
+<script src="/static/mustachejs/mustache.js"></script>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="/static/respond.min.js"></script>
+<![endif]-->   
 
-
-<ul class="pagination">
-  
-  
-    <li class="active">
-        <a href="#" onclick="load_postlist(1); return false;">1</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(2); return false;">2</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(3); return false;">3</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(4); return false;">4</a>
-    </li>
-  
-    <li >
-        <a href="#" onclick="load_postlist(5); return false;">5</a>
-    </li>
-  
-  
-  <li><a href="#" onclick="load_postlist(2); return false;">&raquo;</a></li>
-  
-</ul>
-
+</body>
+</html>

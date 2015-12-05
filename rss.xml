@@ -6,6 +6,13 @@
     <description>Example Site Description</description>
     
     <item>
+        <title>Schedule, Readings & Tutorials</title>
+        <link>/weekly.html</link>
+        <pubDate>Fri, 04 Dec 2015 22:46:05 EST</pubDate>
+        <description>[TOC]  Schedule, Readings & Tutorials ![](http://programminghistorian.org/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png)![](http://programminghistorian.org/gallery/getting-started-with-markdown.png)  General pattern Each week, we will begin Monday at 9 to allow for childcare arrangements. You are welcome to arrive at 8.30 as per the official schedule, but I will not begin until 9. Consequently, I will also not be stopping for...</description>
+    </item>    
+    
+    <item>
         <title>Getting Started</title>
         <link>/getting-started.html</link>
         <pubDate>Wed, 02 Dec 2015 21:30:10 EST</pubDate>
