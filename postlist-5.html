@@ -29,6 +29,60 @@
 
 <div class="panel panel-default">
     <div class="panel-heading">
+        <a href="/about.html">About</a> 
+        <span class="pull-right text-muted">2015-12-02</span>
+    </div>
+    <div class="panel-body">
+        
+            <div class="htmltruncate-md">
+                <div class="toc">
+<ul>
+<li><a href="#shawn-graham">Shawn Graham</a><ul>
+<li><a href="#about-this-site">About this site</a><ul>
+<li><a href="#workflow">Workflow</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 id="shawn-graham">Shawn Graham</h1>
+<p>Associate Prof of Digital Humanities
+<a href="http://twitter.com/electricarchaeo">@electricarchaeo</a>
+- research blog at <a href="http://electricarchaeology.ca">electric archaeology</a>
+- open notebook at <a href="http://shawngraham.github.io">shawngraham.github.io</a>
+- office at PA 406
+- email at shawn dot graham at carleton dot ca
+- Office hours by chance or arrangement</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HaSblM-Qz3A" frameborder="0" allowfullscreen></iframe>
+
+<h2 id="about-this-site">About this site</h2>
+<p>This site is powered by <a href="http://pykwiki.nullism.com/">PyKwiki</a> (see below)</p>
+<p>Icons are from the <a href="https://thenounproject.com/">Noun Project</a>:</p>
+<ul>
+<li>'Designer' by Marie Van den Broeck from the Noun Project</li>
+<li>'Lock', by Jafri Ali </li>
+<li>'Robot', by Rutmer Zijlstra</li>
+</ul>
+<p>Other images:</p>
+<ul>
+<li>'Doc Brown' by <a href="beyondthemarquee.com/3056/doc-brown-martin-casanova">Martin Casanova</a></li>
+<li>'Burnt and abandoned computer' by <a href="https://www.flickr.com/photos/drainrat/13262802714">Darkday</a> </li>
+<li>'Hand Knitted Laptop' by <a href="https://www.flickr.com/photos/katemonkey/5665916936">KateMonkey</a></li>
+</ul>
+<h3 id="workflow">Workflow</h3>
+<p>This site is a static site generated using the python package 'PyKwiki'. Individual files are written in markdown format. Then, at the command line, I run <code>$ python pywkiki cache -f</code> which reads all of my markdown files and turns them into static html. These html files are then synced to a github repository on the gh-pages branch. That branch is configured using a <code>CNAME</code> file to point to the subdomain I registered for this course, <code>grad.craftingdigitalhistory.ca</code>.  That subdomain is similarly configured with a <code>CNAME</code> entry via the cpanel to point back to <code>shawngraham.github.io</code>. This way, instead of futzing with ftp, I use version control to keep everything in sync. This also has the happy side effect that you can fork a copy of this site for your own reference.</p>
+<p>I've used wordpress blogs in the past for course websites, and these work well enough. But I've become disenchanted with the Wordpress interface, and I rather like the idea of writing once, deploying everywhere. When I write in markdown, the plain text files stay with me and I can use <code>pandoc</code> to convert them to whatever else I need. The other thing is, these files will always remain machine readable, whatever Microscoft or Apple do. </p>
+<p>You, too, will learn how to do this.</p>
+                <div class="htmltruncate-bottom"></div>
+            </div>
+            <a href="/about.html" class="btn btn-default">...</a>
+        
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
         <a href="/crafting.html">Crafting Digital History</a> 
         <span class="pull-right text-muted">2015-12-02</span>
     </div>
@@ -54,63 +108,6 @@
                 <div class="htmltruncate-bottom"></div>
             </div>
             <a href="/crafting.html" class="btn btn-default">...</a>
-        
-    </div>
-</div>
-
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <a href="/openaccess.html">Open Access</a> 
-        <span class="pull-right text-muted">2015-12-02</span>
-    </div>
-    <div class="panel-body">
-        
-            <div class="htmltruncate-md">
-                <div class="toc">
-<ul>
-<li><a href="#open-access-research">Open Access Research</a><ul>
-<li><a href="#first-step-our-notes">First step: our notes</a></li>
-<li><a href="#things-to-think-about">Things to think about:</a></li>
-<li><a href="#split-content-from-container">Split content from container</a></li>
-</ul>
-</li>
-<li><a href="#caveats-about-putting-your-stuff-online">Caveats about putting your stuff online</a></li>
-</ul>
-</div>
-<h1 id="open-access-research">Open Access Research</h1>
-<p><em>Open access is not simply about putting data online.</em> (A deep discussion about the failings of the techno-utopianism of 'the digital' is <a href="https://middlesavagery.wordpress.com/">Colleen Morgan</a>'s <a href="https://www.academia.edu/2997156/Emancipatory_Digital_Archaeology">phd thesis</a>). Open access means making our data available in <em>useful</em> formats; it means <em>exposing our thought process</em>. It implies transparency in our peer reviews; it demands accountability in our governance. Accordingly, in terms of my teaching, I make not just my readings etc 'open' but also the process of our learning. I require you to make your materials open as well (with caveats; see below). I am open about how I grade - and the criteria we use we develop together. But baby steps, baby steps...</p>
-<h2 id="first-step-our-notes">First step: our notes</h2>
-<p>As historians, we aren't all that accustomed to sharing our research notes. We go to the archives, we take our photographs, we spend <em>hours</em> pouring over documents, photographs, diaries, newspapers... why should someone else benefit from <em>our</em> work?</p>
-<p>There are a number of reasons why you should want to do this. Read and be prepared to discuss the arguments advanced by these folks:</p>
-<ul>
-<li><a href="http://www.trevorowens.org/2008/03/sunrise-on-methodology-and-radical-transparency-of-sources-in-historical-writing/">Trevor Owens</a></li>
-<li><a href="http://wcm1.web.rice.edu/open-notebook-history.html">Caleb McDaniel</a></li>
-<li><a href="http://ianmilligan.ca/2014/10/23/sshrcs-research-data-archiving-policy-and-historians/">Ian Milligan</a></li>
-<li><a href="http://ianmilligan.ca/2014/01/27/why-canadas-open-data-initiative-matters-to-historians/">another post by Milligan</a></li>
-<li><a href="http://historymanifesto.cambridge.org/read/chapter-4-big-questions-big-data/">Jo Guldi and David Armitage, ch 4</a></li>
-<li><a href="http://hapgood.us/2014/11/06/federated-education-new-directions-in-digital-collaboration/">Mike Caulfield</a></li>
-</ul>
-<p>But most importantly, <em>change is coming whether historians like it or not</em>. Here in Canada, SSHRC has a <a href="http://www.sshrc-crsh.gc.ca/about-au_sujet/policies-politiques/statements-enonces/edata-donnees_electroniques-eng.aspx">research data archiving policy</a></p>
-<blockquote>
-<p>All research data collected with the use of SSHRC funds must be preserved and made available for use by others within a reasonable period of time. SSHRC considers “a reasonable period” to be within two years of the completion of the research project for which the data was collected.</p>
-</blockquote>
-<p>Note the <a href="https://twitter.com/ianmilligan1/status/524932470001897472">conversation that ensued on Twitter after Milligan mentioned all this</a> and also <a href="https://twitter.com/ianmilligan1/status/524932589875101697">here</a></p>
-<h2 id="things-to-think-about">Things to think about:</h2>
-<ul>
-<li>how can we make our research notes open? </li>
-<li>what does that implies for how we do research?</li>
-<li>how we can use this process to maintain our scholarly voice online?</li>
-</ul>
-<p>Really, it's also a kind of <a href="http://www.sshrc-crsh.gc.ca/society-societe/community-communite/index-eng.aspx#2">'knowledge mobilization'</a>. In the workbook I created for my online undergraduate course on <a href="http://workbook.craftingdigitalhistory.ca/Open-Access-Research/Exercises/">crafting digital history</a> there are exercises on how to use services like <a href="http://dillinger.io">Dillinger.io</a>, <a href="http://prose.io">Prose.io</a>, and <a href="http://stackedit.io">Stackedit.io</a> to make changes to a <a href="http://daringfireball.net/projects/markdown/">markdown</a> file. Feel free to browse or take a copy of that workbook.</p>
-<h2 id="split-content-from-container">Split content from container</h2>
-<p>First, read Charlie Stross on <a href="http://www.antipope.org/charlie/blog-static/2013/10/why-microsoft-word-must-die.html">Why Microsoft Word Must Die</a>.</p>
-<p>Now, take a look at <a href="http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown">sustainable authorship in plain text using pandoc and markdown</a>. We will be giving this a spin ourselves. Indeed, it is one of my goals for my course that you integrate these approaches into your research process going forwards.</p>
-<h1 id="caveats-about-putting-your-stuff-online">Caveats about putting your stuff online</h1>
-<p>The online world is not always (or even primarily) a safe space. Open access is not without its dangers, for you personally and academically. We need to talk about these things. </p>
-<p>For all public-facing work, you may use a psuedonymn for everything that leaves a trace on the internet, if you so desire. Just let me know who you are! There is value in using your real name, and I strongly suggest you look into reclaiming your digital identity; but what is safe for me as a middle-aged white man to do online is not safe for everyone. You have the right to not have any public facing work at all; should you invoke this right we will arrive at an equitable solution that meets the learning objectives of this course.</p>
-                <div class="htmltruncate-bottom"></div>
-            </div>
-            <a href="/openaccess.html" class="btn btn-default">...</a>
         
     </div>
 </div>
