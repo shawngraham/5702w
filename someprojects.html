@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<meta name="description" content="Example Site Description">
+<meta name="keywords" content="examples,projects,visualization,games,public">
+
+    <title>Some Digital History Projects | HIST5702W</title>
+    <link rel="stylesheet" href="/static/bootstrap3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/codehilite/manni.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <style type="text/css">
+    html, body { height: 100%; }
+
+    h1:target, h2:target, h3:target { 
+        background-color: #dfd;
+    }
+
+    #wrap {
+        min-height: 100%;
+        height: auto;
+        /* Negative indent footer by its height */
+        margin: 0 auto -60px;
+        /* Pad bottom by footer height */
+        padding: 0 0 60px;
+    }
+
+    #footer {
+        height: 60px;
+        padding-top: 20px;
+        background: #eee;
+    }
+    #footer .social-div { 
+        float: left;
+        margin-left: 10px;
+    }
+
+    .link_section {
+        padding: 3px;
+        margin: 0px; 
+        font-weight: bold;
+    }
+
+    .toc { 
+        float: right;
+        border: 1px solid #f5f5f5;
+        background: #f5f5f5;
+        padding: 5px;
+        border-radius: 10px;
+        color: #999;
+    }
+    .toc ul, .toc li, .toc ul li { 
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+
+    .htmltruncate-lg, .htmltruncate-md, .htmltruncate-sm { 
+        overflow: hidden;
+        position: relative;
+        border-bottom: 2px dashed #eee;
+        margin-bottom: 5px;
+        min-height: 60px;
+    }
+    .htmltruncate-bottom { 
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: none;
+        background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, #fff 100%);
+        z-index: 100;
+        height: 60px;
+    }
+    .htmltruncate-lg {
+        max-height: 500px;
+    }
+    .htmltruncate-md { 
+        max-height: 300px;
+    }
+    .htmltruncate-sm { 
+        max-height: 150px;
+    }
+    </style> 
+    <script>
+    // Globals
+    var has_gaq = false;
+    </script>
+</head>
+<body>
+
+
+
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+    <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" 
+                data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">Home</a>
+    </div>
+    <div class="navbar-collapse collapse" style="max-height: none;">
+    <ul class="nav navbar-nav">
+    
+        
+            <li>
+            
+                <a href="/getting-started.html" target="_self">Syllabus</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="/weekly.html" target="_self">Schedule</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="posts.html" target="_self">Posts</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="search.html" target="_self">Search</a>
+            
+            </li>
+        
+    
+        
+            <li>
+            
+                <a href="about" target="_self">About this site</a>
+            
+            </li>
+        
+    
+    </ul>
+
+    <form class="navbar-form navbar-right" role="search" 
+        method="get"
+        action="/search.html">
+      <div class="form-group">
+        <input type="text" name="q" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-primary" style="display: none;"><span class="glyphicon glyphicon-search"></span></button>
+    </form>
+    </div>
+    </div>
+</div>
+<div id="wrap">
+<div class="container" style="padding-top: 60px;">
+
+<p>
+
+    <a class="label label-default"
+        href="/search.html?t=examples">examples <b class="glyphicon glyphicon-tag"></b></a>
+
+    <a class="label label-default"
+        href="/search.html?t=projects">projects <b class="glyphicon glyphicon-tag"></b></a>
+
+    <a class="label label-default"
+        href="/search.html?t=visualization">visualization <b class="glyphicon glyphicon-tag"></b></a>
+
+    <a class="label label-default"
+        href="/search.html?t=games">games <b class="glyphicon glyphicon-tag"></b></a>
+
+    <a class="label label-default"
+        href="/search.html?t=public">public <b class="glyphicon glyphicon-tag"></b></a>
+
+</p>
+<div class="toc">
+<ul>
+<li><a href="#a-small-unrepresentative-sample-of-digital-history-projects">A Small Unrepresentative Sample of Digital History Projects</a><ul>
+<li><a href="#big-ticket-projects">Big Ticket Projects</a></li>
+<li><a href="#projects-by-students">Projects by Students</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h1 id="a-small-unrepresentative-sample-of-digital-history-projects">A Small Unrepresentative Sample of Digital History Projects</h1>
+<p>There are <strong>many</strong> different ways of doing digital history. You might find something to inspire you here, to delight you, to confound you.</p>
+<p>As you explore these, note the date of creation, the platform or tools used, and the design choices made. See for instance the way Miriam Posner discusses projects in this video:</p>
+<iframe src="https://archive.org/embed/howdidtheymakethat" width="640" height="480" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+
+<p>...and this <a href="http://slides.com/tiffchan/hdtmt#/">presentation in a similar vein</a>, by Tiffany Chan. </p>
+<h2 id="big-ticket-projects">Big Ticket Projects</h2>
+<p>A 'Stunning' Love Letter to Viral Texts - [http://loveletter.viraltexts.org/]</p>
+<p>Viral Texts - [viraltexts.org]</p>
+<p>Valley of the Shadow - [http://valley.lib.virginia.edu/]</p>
+<p>Webarchives.ca [http://webarchives.ca/]</p>
+<p>Scissors and Paste [http://www.scissorsandpaste.net/]</p>
+<p>Great Unsolved Mysteries in Canadian History [http://canadianmysteries.ca/en/index.php]</p>
+<p>Six Degrees of Francis Bacon [http://sixdegreesoffrancisbacon.com/]</p>
+<p>Kindred Britain http://kindred.stanford.edu/</p>
+<h2 id="projects-by-students">Projects by Students</h2>
+<p>Minecrafted Vimy [https://github.com/shawngraham/hist3812a/tree/master/fall-2014-student-projects/mc25568-vimy]</p>
+<p>Minecrafted Rideau [https://github.com/shawngraham/hist3812a/tree/master/fall-2014-student-projects/mc25572-rideau]</p>
+<p>The Molasses Flood [http://omekasites.northeastern.edu/DeepMap/neatline/fullscreen/1919-molasses-flood]</p>
+<p>Boston Harbour Islands [http://omekasites.northeastern.edu/DeepMap/neatline/fullscreen/boston-harbor-islands]</p>
+<p>Quantifying Kissinger [http://blog.quantifyingkissinger.com/]</p>
+<p>Hearing Childhood in Ottawa South [http://ottawalifestories.wix.com/hearingchildhood#!introduction/cjg9]</p>
+<p>Searching for Residential Schools [http://ryanpickering.github.io/Residential-School-Online-Response/startbootstrap-grayscale-1.0.3/]</p>
+
+</div>
+</div><!-- End #wrap -->
+<div id="footer">
+    <div class="container">
+    
+        <div class="social-div">
+        <p class="text-muted credit"><br/><small>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. 2015, HIST5702W
+        &mdash; powered by <a href="http://pykwiki.nullism.com">PyKwiki</a></small>
+        </p>
+        </div>
+
+        
+        <div class="social-div">
+            <iframe src="http://ghbtns.com/github-btn.html?user=shawngraham&amp;repo=5702w&amp;type=watch"
+                style="border: 0px; width: 53px; height: 20px; overflow: hidden;"></iframe>
+            <iframe src="http://ghbtns.com/github-btn.html?user=shawngraham&amp;repo=5702w&amp;type=fork"
+                style="border: 0px; width: 53px; height: 20px; overflow: hidden;"></iframe>
+        </div>
+        
+
+        
+
+        
+        <div class="social-div">
+        <a href="https://twitter.com/twitter.com/electricarchaeo" class="twitter-follow-button" data-show-count="false">Follow @twitter.com/electricarchaeo</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                    if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script>
+        </div>
+        
+
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<script src="/static/bootstrap3/js/bootstrap.min.js"></script>
+<script src="/static/mustachejs/mustache.js"></script>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="/static/respond.min.js"></script>
+<![endif]-->   
+
+</body>
+</html>
