@@ -6,6 +6,20 @@
     <description>Example Site Description</description>
     
     <item>
+        <title>A Library of Readings</title>
+        <link>/library.html</link>
+        <pubDate>Sat, 05 Dec 2015 20:23:58 EST</pubDate>
+        <description>Traditionally, one would sort these to go into the various weeks of the seminar. If you look at the [schedule](weekly.html) you'll see that there is a broad progression through the various stages of doing digital history work - from setting up your research environment, through getting & cleaning your data,...</description>
+    </item>    
+    
+    <item>
+        <title>Schedule, Readings & Tutorials</title>
+        <link>/weekly.html</link>
+        <pubDate>Sat, 05 Dec 2015 09:13:29 EST</pubDate>
+        <description>[TOC]  Schedule, Readings & Tutorials ![](http://programminghistorian.org/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png) [A Library of Readings](library.html)  General pattern Each week, we will begin Monday at 9 to allow for childcare arrangements. You are welcome to arrive at 8.30 as per the official schedule, but I will not begin until 9. Consequently, I will also...</description>
+    </item>    
+    
+    <item>
         <title>Getting Started</title>
         <link>/getting-started.html</link>
         <pubDate>Sat, 05 Dec 2015 09:12:52 EST</pubDate>
@@ -17,20 +31,6 @@
         <link>/someprojects.html</link>
         <pubDate>Sat, 05 Dec 2015 09:12:50 EST</pubDate>
         <description>[TOC]  A Small Unrepresentative Sample of Digital History Projects There are **many** different ways of doing digital history. You might find something to inspire you here, to delight you, to confound you. As you explore these, note the date of creation, the platform or tools used, and the design...</description>
-    </item>    
-    
-    <item>
-        <title>A Library of Readings</title>
-        <link>/library.html</link>
-        <pubDate>Sat, 05 Dec 2015 09:12:49 EST</pubDate>
-        <description>Traditionally, one would sort these to go into the various weeks of the seminar. If you look at the [schedule](weekly.html) you'll see that there is a broad progression through the various stages of doing digital history work - from setting up your research environment, through getting & cleaning your data,...</description>
-    </item>    
-    
-    <item>
-        <title>Schedule, Readings & Tutorials</title>
-        <link>/weekly.html</link>
-        <pubDate>Sat, 05 Dec 2015 09:12:48 EST</pubDate>
-        <description>[TOC]  Schedule, Readings & Tutorials ![](http://programminghistorian.org/gallery/sustainable-authorship-in-plain-text-using-pandoc-and-markdown.png) [A Library of Readings](library.html)  General pattern Each week, we will begin Monday at 9 to allow for childcare arrangements. You are welcome to arrive at 8.30 as per the official schedule, but I will not begin until 9. Consequently, I will also...</description>
     </item>    
     
     <item>
